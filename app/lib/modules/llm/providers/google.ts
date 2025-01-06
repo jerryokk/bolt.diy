@@ -43,7 +43,7 @@ export default class GoogleProvider extends BaseProvider {
     }
 
     const google = createGoogleGenerativeAI({
-      baseURL: 'https://gemini-openaiapi.deno.dev',
+      baseURL: 'https://gemini-api.deno.dev/v1beta',
       apiKey,
     });
 
